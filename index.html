@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Reel Agencia</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/stylepie.css">
+  <link rel="stylesheet" href="css/carusel.css">
+  
+  <!-- Bootstrap initial -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	</head>
+	<body>
+  
+    <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="#">Reel Agencia</a>
+                </div>
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </nav>
+    
+        <section class="home">
+        </section>
+        <div style="height: 1000px">
+            <!-- just to make scrolling effect possible -->
+          <h2 class="myH2">What is this ?</h2>
+          <p class="myP">This is a responsive fixed navbar animated on scroll</p>
+          <p class="myP">I took inspiration from  ABDO STEIF (<a href="https://codepen.io/abdosteif/pen/bRoyMb?editors=1100">https://codepen.io/abdosteif/pen/bRoyMb?editors=1100</a>)
+          and Dicson <a href="https://codepen.io/dicson/pen/waKPgQ">(https://codepen.io/dicson/pen/waKPgQ)</a></p>
+          <p class="myP">I HOPE YOU FIND THIS USEFULL</p>
+          <p class="myP">Albi</p>
+            <p class="myP">
+            
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
+          </p>
+        </div>
+    
+    <!-- Jquery needed -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/scripts.js"></script>
+    
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+        <script>
+            $(window).scroll(function() {
+                if ($(document).scrollTop() > 50) {
+                    $('.nav').addClass('affix');
+                    console.log("OK");
+                } else {
+                    $('.nav').removeClass('affix');
+                }
+            });
+        </script>
+
+
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<div style='text-align:center;'>
+</div>
+<div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <div class="carousel-caption">
+        <h3>First slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="carousel-caption">
+        <h3>Second slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="carousel-caption">
+        <h3>Third slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carouselFade" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carouselFade" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <footer class="footer-section">
+    <div class="container">
+      <div class="footer-content pt-5 pb-5">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 mb-50">
+            <div class="footer-widget">
+              <div class="footer-logo">
+                <a href="index.html"><img src="images/Reel fondo transparente.png" width="80" height="80" class="d-inline-block align-top" alt=""></a>
+              </div>
+              <div class="footer-text">
+                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                  elit,Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="footer-social-icon">
+                <span>Redes Sociales</span>
+                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Useful Links</h3>
+              </div>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Expert Team</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Latest News</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+            <div class="footer-widget">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+            <div class="copyright-text">
+              <p>Copyright &copy; 2022, All Right Reserved </p>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+            <div class="footer-menu">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Policy</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    
+    
+
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+	</body>
+</html>
+
