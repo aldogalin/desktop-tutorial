@@ -1,0 +1,74 @@
+.header1 {
+  block-size: 640px;
+  background-color: black;
+}
+
+/*Cabecera*/
+.header {
+  block-size: 480px;
+  padding: 40px;
+  text-align: center;
+  background: #f9f7f7;
+  margin: 30px;
+  font-size: 20px;
+}
+.reseña {
+  block-size: 800px;
+  background-color: aqua;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 20px;
+  color: yellow;
+  text-align: inherit;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  border: 5px solid black;
+  margin: 100px;
+}
+
+.servicios {
+  block-size: 800px;
+  background-color: rgb(76, 0, 255);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 40px;
+  color: red;
+  text-align: inherit;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 150px;
+  border: 15px solid black;
+}
+
+.exhibicion {
+  background-color: aquamarine;
+  block-size: 700px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.tienda {
+  background-color: rgb(255, 0, 34);
+  block-size: 800px;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: greenyellow;
+  text-align: justify;
+  font-size: 50px;
+  padding: 200px;
+  margin: 200px;
+  border: solid 20px blue;
+}
+
+.piedepagina {
+  background-color: whitesmoke;
+  block-size: 240px;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: black;
+  font-size: 60px;
+  margin: 250px;
+  padding: 80px;
+  border: solid 25px red;
+}
