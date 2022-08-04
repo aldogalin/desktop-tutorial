@@ -1,0 +1,30 @@
+/*Cabecera*/
+.header {
+  block-size: 480px;
+  padding: 40px;
+  text-align: center;
+  background: #f9f7f7;
+  margin: 30px;
+  font-size: 20px;
+}
+
+.mapacolaboradores {
+  block-size: 720px;
+  background-color: bisque;
+}
+
+.footercol {
+  block-size: 350px;
+  background-color: blue;
+}
+
+.piedepagina {
+  background-color: whitesmoke;
+  block-size: 240px;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: black;
+  font-size: 60px;
+  margin: 250px;
+  padding: 80px;
+  border: solid 25px red;
+}
